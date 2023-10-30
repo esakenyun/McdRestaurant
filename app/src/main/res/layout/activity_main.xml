@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logomcd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Store"
+        android:textColor="@color/textview"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:text="Your Name"
+        android:textColor="@color/textview"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/shadow"
+        android:elevation="5dp"
+        android:hint="Please Fill Your Name"
+        android:inputType="textPersonName"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:backgroundTint="@color/button"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:cornerRadius="0dp"
+        app:strokeColor="@color/kuning"
+        app:strokeWidth="1dp"
+        />
+</LinearLayout>

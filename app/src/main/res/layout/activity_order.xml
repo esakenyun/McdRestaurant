@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="34dp"
+        android:text="Order Detail"
+        android:textColor="@color/textview"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helloname"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/ordered"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="45dp"
+        android:text="Pengiriman"
+        android:textColor="@color/textview"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/ambilsendiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:padding="7dp"
+        android:text="Ambil Sendiri"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/fastdelivery"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="45dp"
+        android:padding="7dp"
+        android:text="Fast Delivery (Minimal 30 menit sampai)"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="36dp"
+        android:backgroundTint="@color/button"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:cornerRadius="0dp"
+        app:strokeColor="@color/kuning"
+        app:strokeWidth="1dp"/>
+
+
+</LinearLayout>
